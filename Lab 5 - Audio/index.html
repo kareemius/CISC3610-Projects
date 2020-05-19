@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<style>
+			@font-face {
+				font-family: Press Start K;
+				src: url(prstartk.ttf);	
+			}
+			* {
+				font-family: Press Start K;
+			}
+			
+			body {
+				background-image: url("https://cdn.wallpapersafari.com/71/31/Ffv0zE.jpg");
+				text-align: center;
+			}
+			
+			h1 {
+				color: cyan;
+				}
+			h2 {
+				color: blue;
+			}
+			p{
+				color: white
+			}
+			
+			
+		</style>
+		
+		<title> Lab 4 - Audio </title>
+		<h1> The Mega Man Classic Soundboard </h1>
+		<script src = "sounds.js"> </script>
+	</head>
+	<body>
+		<h2>Game Themes</h2>
+		<audio id = "MM2 Stage Select"  src = "22 - RM2 - STAGE SELECT.mp3" type = "audio/mpeg"> </audio>
+		<audio id = "MM2 Level Start"  src = "23 - RM2 - GAME START.mp3" type = "audio/mpeg"> </audio> 
+		<audio id = "MM2 Stage Clear"  src = "32 - RM2 - STAGE CLEAR.mp3" type = "audio/mpeg"> </audio> 
+		<audio id = "MM2 Wily Castle" src = "35 - RM2 - Dr.WILY MAP.mp3" type = "audio/mpeg"> </audio> 
+		<audio id = "MM2 Game Over"  src = "44 - RM2 - GAME OVER.mp3" type = "audio/mpeg"> </audio> 
+
+		
+		<button onclick = "playStageAudio()" type = "button" color = "cyan">MM2 - Stage Select</button>
+		<button onclick = "playStartAudio()" type = "button">MM2 - Level Start</button> <br><br>
+		<button onclick = "playClearAudio()" type = "button">MM2 - Stage Clear</button> 
+		<button onclick = "playWilyAudio()" type = "button">MM2 - Dr. Wily's Castle Map</button> <br><br>
+		<button onclick = "playGameOverAudio()" type = "button">MM2 - Game Over</button> <br>
+		
+		<p> MEGA MAN and all sounds: © CAPCOM</p>
+	</body>
+</html>
