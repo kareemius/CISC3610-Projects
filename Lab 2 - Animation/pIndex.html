@@ -1,0 +1,21 @@
+<!doctype HTML>
+<HTML>
+	<head>
+	
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<h1> Practice Animation </h1>
+		<script src = "numbers.js"> </script>
+		<script src = "animation.js"> </script>
+	</head>
+	
+	<body>
+		<script> document.addEventListener ('DOMContentLoaded' , Scene.start); </script>
+		<div id = "scene" style = "text-align:center;">
+		<canvas id = 'canvas' width = "600" height = "300" style = "border: 1px solid #000000;"></canvas>
+		<div style = "text-align: center">
+			<input type = "button" id = "Start" onclick="Scene.mainLoop()" value="Start"/>
+		</div>
+		</div>	
+	</body>
+</HTML>
