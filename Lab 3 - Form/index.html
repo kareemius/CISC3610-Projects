@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link rel = "stylesheet" href = "formStyle.css"> </link>
+	<script src = "formScript.js"></script>
+    <title> Lab 3 - Form Entry </title>
+    <h1> Sample Form </h1>
+  </head>
+  <body>
+   <form name = "form" action = "index.html" method = "post">
+      <label for="email">Enter Your Email Address:</label><br>
+      <input type = text id = "email" requiredminLength = "7" 
+             maxLength = 40 size = 40 oninput = "setLocalStorage()">
+	 <input type="submit" value="Submit" onsubmit = "testEmail()">
+     <br><br>
+     <label for="factBox">Write a Brief Description about Yourself <br>
+       & One Interesting Fact You Know About Anything: </label><br>
+     <textarea id = factBox rows = 10 cols = 80 requiredminLength = 100 
+               maxLength = 5000  oninput = "setLocalStorage()"> </textarea><br><br>
+     <button type= "button" onclick = 'clearForm()'>Clear</button> <div> </div>
+     <button type= "button" onclick = 'undoForm()'>Undo Action </button> <div> </div>
+    </form>
+  </body>
+</html>
