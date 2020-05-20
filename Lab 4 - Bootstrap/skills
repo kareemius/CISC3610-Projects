@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lab 4 - Bootstrap </title>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  <!-- Latest compiled and minified CSS -->
+		<style>
+			.main-font{
+				font-family: "Rockwell";
+				font-size: 72px;
+			}
+			
+			.h3-font{
+				font-family: "Rockwell";
+				font-size: 30px;
+			}
+			
+			.h5-font{
+				font-family: "Rockwell";
+			}
+			
+			.h6-font{
+				font-family: "Rockwell";
+			}
+			
+			.copy-font{
+				font-family: "Montserrat";
+			}
+			
+			
+			body {
+				text-align: center;
+				background: url('brooklyn-bridge-edit.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+				-o-background-size: cover;
+				
+			}	
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  <!-- jQuery library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <!-- Popper JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  <!-- Latest compiled JavaScript -->
+	</head>
+	
+	<body>
+		<!-- RESUME NAV BAR-->
+	<nav class = "navbar navbar-expand-sm bg-transparent justify-content-center navbar-light">
+		<div class = "container">
+				<a class = "navbar-brand" href="main_index">Kareem's Resume</a>
+				<button class = "navbar-toggler" type="button" data-toggle="collapse" data-target = "#navbarResponsive" aria-controls = "navbarResponsive" aria-expanded = "false" aria-label = "Toggle navigation">
+					<span class = "navbar-toggler-icon"></span>
+				</button>
+				
+			<div class = "collapse navbar-collapse" id="navbarResponsive">
+				<ul class = "navbar-nav ml-auto">
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="main_index"> Main Page </a>
+				</li>
+					
+				<li class = "nav-item">
+					<a class = "nav-link" href="experience">Experience</a>
+				</li>
+				
+				<li class = "nav-item active">
+					<a class = "nav-link" href="skills">Skills</a>
+					<span class = "sr-only">(current)</span>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="works">Works</a>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="https://kareeme4713.wixsite.com/mysite">Website</a>
+				</li>
+				
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Main Heading -->
+	<h1 class = "main-font"> Kareem Edmonds </h1>
+	<h3 class = "h3-font"> Brooklyn, NY  | kareeme4713@gmail.com</h3><br>
+	
+		<!-- Main Card -->
+	<div class = "container">
+		<div class = "card border-0 shadow my-5">
+			<div class = "card-body p-5">
+			<h3 class = "h3-font"> Skills  </h3>
+			<br>
+					<h5 class = "h5-font"> Software Experience </h5>
+					<p class = "copy-font"> • Photoshop • Illustrator • Premiere • InDesign </p>
+					<p class = "copy-font"> • Microsoft Office • Audacity • Autodesk Sketchbook • Autodesk Maya • Processing • Adobe Acrobat • G Suite </p>
+					<h5 class = "h5-font">  Hard Skills:  </h5>
+					<p class = "copy-font"> • Programming Experience in C++ • Java • JavaScript • HTML/CSS • Illustration • Audio/Sound Mixing •Video Editing • Animation • Peer Editing • Journalism </p>
+					<h5 class = "copy-font"> Soft Skills: </h5>
+					<p class = "copy-font"> • Leadership Experience • Email Communication • Flexibility • Resourcefulness • Creativity  </p>
+					
+					
+					
+	</div>
+	</body>
+</body>
+</html>

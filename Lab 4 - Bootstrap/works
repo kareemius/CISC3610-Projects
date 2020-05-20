@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lab 4 - Bootstrap </title>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  <!-- Latest compiled and minified CSS -->
+		<style>
+			.main-font{
+				font-family: "Rockwell";
+				font-size: 72px;
+			}
+			
+			.h3-font{
+				font-family: "Rockwell";
+				font-size: 30px;
+			}
+			
+			.h5-font{
+				font-family: "Rockwell";
+			}
+			
+			.h6-font{
+				font-family: "Rockwell";
+			}
+			
+			.copy-font{
+				font-family: "Montserrat";
+			}
+			
+			
+			body {
+				text-align: center;
+				background: url('brooklyn-bridge-edit.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+				-o-background-size: cover;
+				
+			}	
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  <!-- jQuery library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <!-- Popper JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  <!-- Latest compiled JavaScript -->
+	</head>
+	
+	<body>
+	<!-- RESUME NAV BAR-->
+	<nav class = "navbar navbar-expand-sm bg-transparent justify-content-center navbar-light">
+		<div class = "container">
+				<a class = "navbar-brand" href="main_index">Kareem's Resume</a>
+				<button class = "navbar-toggler" type="button" data-toggle="collapse" data-target = "#navbarResponsive" aria-controls = "navbarResponsive" aria-expanded = "false" aria-label = "Toggle navigation">
+					<span class = "navbar-toggler-icon"></span>
+				</button>
+				
+			<div class = "collapse navbar-collapse" id="navbarResponsive">
+				<ul class = "navbar-nav ml-auto">
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="main_index">Main Page</a>
+				</li>
+					
+				<li class = "nav-item">
+					<a class = "nav-link" href="experience">Experience</a>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="skills">Skills</a>
+				</li>
+				
+				<li class = "nav-item active">
+					<a class = "nav-link" href="works">Works
+					<span class = "sr-only">(current)</span>
+					</a>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="https://kareeme4713.wixsite.com/mysite">Website</a>
+				</li>
+				
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Main Heading -->
+	<h1 class = "main-font"> Kareem Edmonds </h1>
+	<h3 class = "h3-font"> Brooklyn, NY  | kareeme4713@gmail.com</h3><br>
+	
+	<!-- Main Card -->
+	<div class = "container">
+		<div class = "card border-0 shadow my-5">
+			<div class = "card-body p-5">
+				<h3 class = "h3-font"> Works  </h3>
+				<p class = "copy-font"> Here are some of the Multimedia Projects I've worked on: </p><br>
+				
+				<div class = "row">
+				<div class  = "col-md-4">
+				<div class = "card">
+					<img class = "card-img-top" src= "NES_Main_View.png" alt = "Card-Image Cap">
+						<div class = "card-body">
+							<h5 class="card-title">3D Nintendo Entertainment System</h5>
+							 <p class="card-text"> Drawn in Autodesk Maya </p>
+						</div>
+					</div>
+				</div>
+				
+				<div class  = "col-md-4">
+				<div class = "card">
+					<img class = "card-img-top" src= "Fire Emblem - SnK Boxart.png" alt = "Card-Image Cap">
+						<div class = "card-body">
+							<h5 class="card-title">Fire Emblem - Custom SFC Boxart</h5>
+							 <p class="card-text">Made using PhotoShop/Illustrator</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class  = "col-md-4">
+				<div class = "card">
+					<img class = "card-img-top" src= "Game Boy Mech 2.png" alt = "Card-Image Cap">
+						<div class = "card-body">
+							<h5 class="card-title">Game Boy 2D Render</h5>
+							 <p class="card-text">Drawn in Adobe Illustrator</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+
+			<div class = "row">
+				<h3 class = "h3-font"> Video Project: The Dark Knight Animated Trailer</h3>
+				<div class = "embed-responsive embed-responsive-16by9">
+					<iframe class = "embed-responsive-item" src = "The Dark Knight Animated.mp4"></IFRAME>
+				</div>
+			</div>
+			<br>
+			
+			<div class = "row">
+				<h3 class = "h3-font"> Audio Project: Uptown-Spec Robo Funk [MASHUP]</h3>
+				<div class = "embed-responsive embed-responsive-16by9">
+					<iframe class = "embed-responsive-item" src = "Ronson x Lopes - Uptown-Spec Robo Go.mp3"></IFRAME>
+				</div>
+			</div>
+			<br>
+			
+		</div>
+	</div>
+	</body>
+</html>

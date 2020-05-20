@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lab 4 - Bootstrap </title>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  <!-- Latest compiled and minified CSS -->
+		<style>
+			.main-font{
+				font-family: "Rockwell";
+				font-size: 72px;
+			}
+			
+			.h3-font{
+				font-family: "Rockwell";
+				font-size: 30px;
+			}
+			
+			.h5-font{
+				font-family: "Rockwell";
+			}
+			
+			.h6-font{
+				font-family: "Rockwell";
+			}
+			
+			.copy-font{
+				font-family: "Montserrat";
+			}
+			
+			
+			body {
+				text-align: center;
+				background: url('brooklyn-bridge-edit.jpg') no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+				-o-background-size: cover;
+				
+			}	
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  <!-- jQuery library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <!-- Popper JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  <!-- Latest compiled JavaScript -->
+	</head>
+	
+	<body>
+	
+	<!-- RESUME NAV BAR-->
+	<nav class = "navbar navbar-expand-sm bg-transparent justify-content-center navbar-light">
+		<div class = "container">
+				<a class = "navbar-brand" href="main_index">Kareem's Resume</a>
+				<button class = "navbar-toggler" type="button" data-toggle="collapse" data-target = "#navbarResponsive" aria-controls = "navbarResponsive" aria-expanded = "false" aria-label = "Toggle navigation">
+					<span class = "navbar-toggler-icon"></span>
+				</button>
+				
+			<div class = "collapse navbar-collapse" id="navbarResponsive">
+				<ul class = "navbar-nav ml-auto">
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="main_index">Main Page
+					</a>
+				</li>
+					
+				<li class = "nav-item active">
+					<a class = "nav-link" href="experience">Experience
+					<span class = "sr-only">(current)</span>
+					</a>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="skills">Skills</a>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="works">Works</a>
+				</li>
+				
+				<li class = "nav-item">
+					<a class = "nav-link" href="https://kareeme4713.wixsite.com/mysite">Website</a>
+				</li>
+				
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Main Heading -->
+	<h1 class = "main-font"> Kareem Edmonds </h1>
+	<h3 class = "h3-font"> Brooklyn, NY  | kareeme4713@gmail.com</h3><br>
+	
+	<!-- Main Card -->
+	<div class = "container">
+		<div class = "card border-0 shadow my-5">
+			<div class = "card-body p-5">
+				<h3 class = "h3-font"> Experience </h3>
+				<br>
+					<h5 class = "h5-font"> Communitas America - Web Design Intern </h5>
+					<p class = "copy-font"> • Worked with a team of four to build and design websites for many different types of public service organizations; using website builders like Squarespace and Wix and basic knowledge of HTML/CSS. </p>
+					<p class = "copy-font"> • Utilized modern principles of User Experience and functionality to accommodate our clients with both updated websites and new platforms for their businesses. </p>
+					<p class = "copy-font"> • Actively engaged in e-mail and in-person correspondence with clients to schedule meetings and demonstrations on website progress  </p>
+					<p class = "copy-font"> • Worked in Cooperation with a Bronx based High School to assist a class of 20 students with designing websites for their own businesses.  </p>
+					<p class = "copy-font"> • Planned a 5-week curriculum with my team to co-teach and mentor students on the basics of Website Design and User Experience.  </p>
+					<br>
+					
+					<h5 class = "h5-font"> Mosaic Sales Solutions - HP Account Sales Representative </h5>
+					<p class = "copy-font"> • Engaging customers in promoting the wide fleet of HPs technologies, from computers, to printers, and subscription services. </p>
+					<p class = "copy-font"> • Works in conjunction with sales representatives of stores such as Best Buy, Staples, and BH Photo and Video promoting HP products and services. </p>
+					<p class = "copy-font"> • Train these representatives on HPs technologies to improve our shared expertise and further customer experiences.  </p>
+					<p class = "copy-font"> • Assists store managers with setups of customer demos and store displays.  </p>
+					<br>
+
+					
+	</div>
+	</body>
+</html>
